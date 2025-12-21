@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="icon" href="../img/logo.png" />
+    <title>CineMur</title>
+  </head>
+  <body>
+    <!--                EL NAV COMPLETO                 -->
+    <header class="sticky-top">
+      <nav
+        class="navbar navbar-expand-md border-bottom nav-style"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../img/logo.png" alt="" width="60" class="ms-3" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-3 gap-1">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >INICIO</a
+                >
+              </li>
+              <!--        NAV PELICULAS CON EL DROPDOWN           -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-light"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >PELICULAS
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../pages/+13.html">+13</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/atp.html">ATP</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../pages/servicios.html"
+                  ><table>
+                    SERVICIOS
+                  </table></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../pages/contacto.html"
+                  >CONTACTO</a
+                >
+              </li>
+            </ul>
+            <!--              LADO IZQUIERDO, UBIC             -->
+            <div class="ms-auto d-flex gap-1 me-3">
+              <i class="bi bi-geo-alt text-light pt-3"></i>
+              <p class="text-center text-light pt-3">TUCUMAN YERBA BUENA</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="contac">
+      <section class="contacto-form">
+        <div class="container-formulario">
+          <div class="encabezado">
+            <h2>CONTACTO</h2>
+            <p>
+              Cuentame en que puedo ayudarte y te respondere lo antes posible
+            </p>
+          </div>
+
+          <form action="#" method="POST" class="formulario-contacto">
+            <div class="grupo-input">
+              <label for="nombre">Nombre completo</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Ej Saleme Santiago"
+                required
+              />
+            </div>
+
+            <div class="grupo-input">
+              <label for="email">Correo electronico</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="hola@tuempresa.com"
+                required
+              />
+            </div>
+
+            <div class="grupo-input">
+              <label for="asunto">Asunto</label>
+              <select id="asunto" name="asunto">
+                <option value="presupuesto">Presupuesto</option>
+                <option value="soporte">Problemas con las entradas</option>
+                <option value="soporte">Problemas con el plan mensual</option>
+                <option value="otros">Otros</option>
+              </select>
+            </div>
+
+            <div class="grupo-input">
+              <label for="mensaje">Tu mensaje</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="5"
+                placeholder="Escribe aquí los detalles..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="boton-enviar">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-3 footer-style">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-4 col-md-4 col-12 text-center">
+            <p class="fs-5 fw-bold pt-2">LINKS</p>
+            <ul class="list-unstyled">
+              <li><a href="../index.html" class="m-1">INICIO</a></li>
+              <li><a href="../pages/+13.html" class="m-1">+13</a></li>
+              <li><a href="../pages/atp.html" class="m-1">ATP</a></li>
+              <li>
+                <a href="../pages/servicios.html" class="m-1">SERVICIOS</a>
+              </li>
+              <li><a href="../pages/contacto.html" class="m-1">CONTACTO</a></li>
+            </ul>
+          </div>
+          <div class="col col-lg-4 col-md-4 col-12 text-center">
+            <p class="fs-5 fw-bold pt-2">REDES SOCIALES</p>
+            <ul class="list-unstyled">
+              <li>
+                <a href="" class="m-1"
+                  >INSTAGRAM
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="m-1"
+                  >WHATSAPP
+                  <i class="bi bi-whatsapp"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="m-1"
+                  >X
+                  <i class="bi bi-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="m-1"
+                  >GITHUB
+                  <i class="bi bi-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col col-lg-4 col-md-4 col-12 text-center">
+            <p class="fs-5 fw-bold pt-2">REALIZADO CON:</p>
+            <ul class="list-unstyled">
+              <li><a href="" class="m-1">HTML</a></li>
+              <li><a href="" class="m-1">CSS</a></li>
+              <li><a href="" class="m-1">BOOSTRAP</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

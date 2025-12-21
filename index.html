@@ -14,17 +14,17 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="icon" href="./img/logo.png">
+    <link rel="icon" href="./img/logo.png" />
     <title>CineMur</title>
   </head>
   <body>
     <!--                EL NAV COMPLETO                 -->
     <header class="sticky-top">
       <nav
-        class="navbar navbar-expand-md border-bottom nav-style "
+        class="navbar navbar-expand-md border-bottom nav-style"
         data-bs-theme="dark"
       >
-        <div class="container-fluid ">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="./img/logo.png" alt="" width="60" class="ms-3" />
           </a>
@@ -42,7 +42,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-3 gap-1">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
                   >INICIO</a
                 >
               </li>
@@ -57,19 +60,25 @@
                   >PELICULAS
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item " href="./pages/+13.html">+13</a></li>
-                  <li><a class="dropdown-item" href="./pages/atp.html">ATP</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./pages/+13.html">+13</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pages/atp.html">ATP</a>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#"
+                <a class="nav-link text-light" href="./pages/servicios.html"
                   ><table>
                     SERVICIOS
                   </table></a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">CONTACTO</a>
+                <a class="nav-link text-light" href="./pages/contacto.html"
+                  >CONTACTO</a
+                >
               </li>
             </ul>
             <!--              LADO IZQUIERDO, UBIC             -->
@@ -87,7 +96,7 @@
       <section class="container-fluid pt-4">
         <div
           id="carouselExampleInterval"
-          class="carousel slide "
+          class="carousel slide"
           data-bs-ride="carousel"
         >
           <div class="carousel-inner">
@@ -135,27 +144,26 @@
       </section>
 
       <!--                    TEXTO CARTELERA                 -->
-      <section class="container">
+      <section class="container-md">
         <div class="d-flex gap-2 cartelera-style">
           <p class="text-light ps-3 fs-4 fw-bold">CARTELERA</p>
           <i class="bi bi-arrow-down-circle fs-4 cartelera-icon"></i>
         </div>
         <!--                    ARRANCA CARD                 -->
         <div
-          class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4 mb-5"
-          style="image-rendering: pixelated"
+          class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-4 mb-5 justify-content-center"
         >
           <div class="col carta-style">
-            <div class="card position-relative border-dark h-100 ">
+            <div class="card position-relative border-dark h-100">
               <img
                 src="./img/harry-poter.jpg"
                 class="card-img-top image-carta"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body p-1 text-center">
                 <h5 class="card-title">HARRY POTTER</h5>
                 <p
-                  class="card-time position-absolute top-0 end-0  rounded-2 m-1"
+                  class="card-time position-absolute top-0 end-0 rounded-2 m-1"
                 >
                   2h 37m
                 </p>
@@ -168,13 +176,12 @@
               <img
                 src="./img/telefono-negro2.jpg"
                 class="card-img-top image-carta"
-                
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body p-1 text-center">
                 <h5 class="card-title">TELEFONO NEGRO</h5>
                 <p
-                  class="card-time position-absolute top-0 end-0  m-1 rounded-2"
+                  class="card-time position-absolute top-0 end-0 m-1 rounded-2"
                 >
                   1h 54m
                 </p>
@@ -187,13 +194,12 @@
               <img
                 src="./img/wicked.jpg"
                 class="card-img-top image-carta"
-              
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body p-1 text-center">
                 <h5 class="card-title">WICKED</h5>
                 <p
-                  class="card-time position-absolute top-0 end-0  rounded-2 m-1"
+                  class="card-time position-absolute top-0 end-0 rounded-2 m-1"
                 >
                   2h 18m
                 </p>
@@ -206,13 +212,12 @@
               <img
                 src="./img/zoopocalipsis.jpg"
                 class="card-img-top image-carta"
-               
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body p-1 text-center">
                 <h5 class="card-title">ZOOPOCALIPSIS</h5>
                 <p
-                  class="card-time position-absolute top-0 end-0  rounded-2 m-1"
+                  class="card-time position-absolute top-0 end-0 rounded-2 m-1"
                 >
                   2h 18m
                 </p>
@@ -225,13 +230,12 @@
               <img
                 src="./img/footopia.jpg"
                 class="card-img-top image-carta"
-                
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body p-1 text-center">
                 <h5 class="card-title">ZOOPOCALIPSIS</h5>
                 <p
-                  class="card-time position-absolute top-0 end-0  rounded-2 m-1"
+                  class="card-time position-absolute top-0 end-0 rounded-2 m-1"
                 >
                   2h 18m
                 </p>
@@ -244,13 +248,12 @@
               <img
                 src="./img/freddy.jpg"
                 class="card-img-top image-carta"
-                
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body p-1 text-center">
                 <h5 class="card-title">ZOOPOCALIPSIS</h5>
                 <p
-                  class="card-time position-absolute top-0 end-0  rounded-2 m-1"
+                  class="card-time position-absolute top-0 end-0 rounded-2 m-1"
                 >
                   2h 18m
                 </p>
@@ -263,13 +266,12 @@
               <img
                 src="./img/Noche-de-Paz-Noche-de-Horror.jpg"
                 class="card-img-top image-carta"
-               
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body p-1 text-center">
                 <h5 class="card-title">ZOOPOCALIPSIS</h5>
                 <p
-                  class="card-time position-absolute top-0 end-0  rounded-2 m-1"
+                  class="card-time position-absolute top-0 end-0 rounded-2 m-1"
                 >
                   2h 18m
                 </p>
@@ -282,13 +284,12 @@
               <img
                 src="./img/jay kelly.jpg"
                 class="card-img-top image-carta"
-                
                 alt="..."
               />
-              <div class="card-body ">
+              <div class="card-body p-1 text-center">
                 <h5 class="card-title">ZOOPOCALIPSIS</h5>
                 <p
-                  class="card-time position-absolute top-0 end-0  rounded-2 m-1"
+                  class="card-time position-absolute top-0 end-0 rounded-2 m-1"
                 >
                   2h 18m
                 </p>
@@ -304,50 +305,55 @@
         <div class="row">
           <div class="col col-lg-4 col-md-4 col-12 text-center">
             <p class="fs-5 fw-bold pt-2">LINKS</p>
-            <ul class="list-unstyled ">
-              <li><a href="" class=" m-1 ">INICIO</a></li>
-              <li><a href="" class=" m-1">+13</a></li>
-              <li><a href=""class=" m-1">ATP</a></li>
-              <li><a href=""class=" m-1">TIPOS DE CINE</a></li>
-              <li><a href="" class=" m-1">CONTACTO</a></li>
+            <ul class="list-unstyled">
+              <li><a href="./index.html" class="m-1">INICIO</a></li>
+              <li><a href="./pages/+13.html" class="m-1">+13</a></li>
+              <li><a href="./pages/atp.html" class="m-1">ATP</a></li>
+              <li>
+                <a href="./pages/servicios.html" class="m-1">SERVICIOS</a>
+              </li>
+              <li><a href="./pages/contacto.html" class="m-1">CONTACTO</a></li>
             </ul>
-
           </div>
           <div class="col col-lg-4 col-md-4 col-12 text-center">
             <p class="fs-5 fw-bold pt-2">REDES SOCIALES</p>
             <ul class="list-unstyled">
-              <li><a href="" class=" m-1">INSTAGRAM
-                <i class="bi bi-instagram"></i>
-              </a>
+              <li>
+                <a href="" class="m-1"
+                  >INSTAGRAM
+                  <i class="bi bi-instagram"></i>
+                </a>
               </li>
-             <li><a href="" class=" m-1">WHATSAPP
-                <i class="bi bi-whatsapp"></i>
-              </a>
+              <li>
+                <a href="" class="m-1"
+                  >WHATSAPP
+                  <i class="bi bi-whatsapp"></i>
+                </a>
               </li>
-              <li><a href="" class=" m-1">X
-                <i class="bi bi-twitter"></i>
-              </a>
+              <li>
+                <a href="" class="m-1"
+                  >X
+                  <i class="bi bi-twitter"></i>
+                </a>
               </li>
-              <li><a href="" class=" m-1">GITHUB
-                <i class="bi bi-github "></i>
-              </a>
+              <li>
+                <a href="" class="m-1"
+                  >GITHUB
+                  <i class="bi bi-github"></i>
+                </a>
               </li>
-            
             </ul>
           </div>
-          <div class="col col-lg-4 col-md-4 col-12 text-center ">
+          <div class="col col-lg-4 col-md-4 col-12 text-center">
             <p class="fs-5 fw-bold pt-2">REALIZADO CON:</p>
             <ul class="list-unstyled">
-              <li><a href="" class=" m-1">HTML</a></li>
-              <li><a href="" class=" m-1">CSS</a></li>
-              <li><a href="" class=" m-1">BOOSTRAP</a></li>
-              
-              
+              <li><a href="" class="m-1">HTML</a></li>
+              <li><a href="" class="m-1">CSS</a></li>
+              <li><a href="" class="m-1">BOOSTRAP</a></li>
             </ul>
           </div>
         </div>
       </div>
-
     </footer>
 
     <script
