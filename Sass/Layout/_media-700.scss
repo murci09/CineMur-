@@ -1,0 +1,13 @@
+@media (max-width: 700px){
+    .banner-container {
+        grid-template-columns: 1fr; 
+    }
+    
+    .banner-content {
+        padding: 20px;
+        text-align: center;
+    }
+    .pochoclos{
+        text-align: center;
+    }
+}

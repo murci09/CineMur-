@@ -1,0 +1,76 @@
+@use "../Utilities/variable" as *;
+.contacto-form{
+justify-items: center;
+background-image: url(https://4kwallpapers.com/images/wallpapers/landscape-macbook-1920x1080-10760.jpg);
+background-size:cover;
+
+}
+.contac{
+   background-image: url(https://4kwallpapers.com/images/wallpapers/landscape-macbook-1920x1080-10760.jpg);
+}
+
+.container-formulario {
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.encabezado {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.encabezado h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.encabezado p {
+    font-size: 14px;
+}
+
+.grupo-input {
+    margin-bottom: 20px;
+}
+
+.grupo-input label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.grupo-input input, 
+.grupo-input select, 
+.grupo-input textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: $color-contacto;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+
+.boton-enviar {
+    width: 100%;
+    padding: 14px;
+    background-color: $color-hover;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.boton-enviar:hover {
+    background-color: $color-boton;
+}

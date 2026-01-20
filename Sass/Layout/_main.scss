@@ -1,0 +1,13 @@
+@use "../Utilities/variable" as *;
+main{
+    background-color: $color-principal;
+    padding-bottom: 40px;
+}
+
+/* CARTELERA LOGO */
+.cartelera-icon{
+color: #f21e1e;
+}
+.cartelera-style{
+    margin-top: 10px;
+}

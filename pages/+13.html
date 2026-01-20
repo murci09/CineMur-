@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="icon" href="../img/logo.png" />
+    <title>CineMur</title>
+  </head>
+  <body>
+    <!--                EL NAV COMPLETO                 -->
+    <header class="sticky-top">
+      <nav
+        class="navbar navbar-expand-md border-bottom nav-style"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/logo.png" alt="" width="60" class="ms-3" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-3 gap-1">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >INICIO</a
+                >
+              </li>
+              <!--        NAV PELICULAS CON EL DROPDOWN           -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-light"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >PELICULAS
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../pages/+13.html">+13</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/atp.html">ATP</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../pages/servicios.html"
+                  ><table>
+                    SERVICIOS
+                  </table></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../pages/contacto.html"
+                  >CONTACTO</a
+                >
+              </li>
+            </ul>
+            <!--              LADO IZQUIERDO, UBIC             -->
+            <div class="ms-auto d-flex gap-1 me-3">
+              <i class="bi bi-geo-alt text-light pt-3"></i>
+              <p class="text-center text-light pt-3">TUCUMAN YERBA BUENA</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ESTRENO DE PELICULA +13 -->
+
+    <main>
+      <section class="banner-mastrece">
+        <div class="banner-container">
+          <div class="banner-img">
+            <img src="../img/no te olvidare.jpg" alt="Estreno Primate" />
+          </div>
+          <div class="banner-content">
+            <span class="span-estreno">ESTRENO 2026 +13</span>
+            <h3>EL ESTRENO MÁS ESPERADO</h3>
+            <p>No te pierdas la acción más intensa en nuestras salas 4D</p>
+          </div>
+        </div>
+
+        <div class="pochoclos">
+          <h3>🍿No te olvides de los Pochoclos</h3>
+          <p>
+            Presentando tu entrada de una película +13 tenés 20% de descuento en
+            el Combo Murci
+          </p>
+        </div>
+      </section>
+      <!-- LAS CARD DE +13 -->
+      <section class="container">
+        <div
+          class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-4 justify-content-center"
+          style="image-rendering: pixelated"
+        >
+          <div class="col carta-style">
+            <div class="card position-relative border-dark h-100">
+              <img
+                src="../img/avatar.jpg"
+                class="card-img-top image-carta"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">HARRY POTTER</h5>
+                <p
+                  class="card-time position-absolute top-0 end-0 rounded-2 m-1"
+                >
+                  2h 37m
+                </p>
+                <p class="card-text">3D . D-BOX . 4D E-MOTION . 2D</p>
+              </div>
+            </div>
+          </div>
+          <div class="col carta-style">
+            <div class="card position-relative border-dark h-100">
+              <img
+                src="../img/quimera.jpg"
+                class="card-img-top image-carta"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">TELEFONO</h5>
+                <p
+                  class="card-time position-absolute top-0 end-0 m-1 rounded-2"
+                >
+                  1h 54m
+                </p>
+                <p class="card-text">2D . PREMIUM CLASS . COMFORT</p>
+              </div>
+            </div>
+          </div>
+          <div class="col carta-style">
+            <div class="card position-relative border-dark h-100">
+              <img
+                src="../img/anaconda.jpg"
+                class="card-img-top image-carta"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">WICKED</h5>
+                <p
+                  class="card-time position-absolute top-0 end-0 rounded-2 m-1"
+                >
+                  2h 18m
+                </p>
+                <p class="card-text">3D . PREMIUM CLASS . COMFORT</p>
+              </div>
+            </div>
+          </div>
+          <div class="col carta-style">
+            <div class="card position-relative border-dark h-100">
+              <img
+                src="../img/jay kelly.jpg"
+                class="card-img-top image-carta"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">ZOOPOCALIPSIS</h5>
+                <p
+                  class="card-time position-absolute top-0 end-0 rounded-2 m-1"
+                >
+                  2h 18m
+                </p>
+                <p class="card-text">3D . D-BOX . 4D E-MOTION . 2D</p>
+              </div>
+            </div>
+          </div>
+          <div class="col carta-style">
+            <div class="card position-relative border-dark h-100">
+              <img
+                src="../img/Noche-de-Paz-Noche-de-Horror.jpg"
+                class="card-img-top image-carta"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">ZOOPOCALIPSIS</h5>
+                <p
+                  class="card-time position-absolute top-0 end-0 rounded-2 m-1"
+                >
+                  2h 18m
+                </p>
+                <p class="card-text">3D . D-BOX . 4D E-MOTION . 2D</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col carta-style">
+            <div class="card position-relative border-dark h-100">
+              <img
+                src="../img/telefono-negro2.jpg"
+                class="card-img-top image-carta"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">ZOOPOCALIPSIS</h5>
+                <p
+                  class="card-time position-absolute top-0 end-0 rounded-2 m-1"
+                >
+                  2h 18m
+                </p>
+                <p class="card-text">3D . D-BOX . 4D E-MOTION . 2D</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col carta-style">
+            <div class="card position-relative border-dark h-100">
+              <img
+                src="../img/primate.jpg"
+                class="card-img-top image-carta"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">ZOOPOCALIPSIS</h5>
+                <p
+                  class="card-time position-absolute top-0 end-0 rounded-2 m-1"
+                >
+                  2h 18m
+                </p>
+                <p class="card-text">3D . D-BOX . 4D E-MOTION . 2D</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col carta-style">
+            <div class="card position-relative border-dark h-100">
+              <img
+                src="../img/send.jpg"
+                class="card-img-top image-carta"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">ZOOPOCALIPSIS</h5>
+                <p
+                  class="card-time position-absolute top-0 end-0 rounded-2 m-1"
+                >
+                  2h 18m
+                </p>
+                <p class="card-text">3D . D-BOX . 4D E-MOTION . 2D</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="mt-3 footer-style">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-4 col-md-4 col-12 text-center">
+            <p class="fs-5 fw-bold pt-2">LINKS</p>
+            <ul class="list-unstyled">
+              <li><a href="../index.html" class="m-1">INICIO</a></li>
+              <li><a href="../pages/+13.html" class="m-1">+13</a></li>
+              <li><a href="../pages/atp.html" class="m-1">ATP</a></li>
+              <li>
+                <a href="../pages/servicios.html" class="m-1">SERVICIOS</a>
+              </li>
+              <li><a href="../pages/contacto.html" class="m-1">CONTACTO</a></li>
+            </ul>
+          </div>
+          <div class="col col-lg-4 col-md-4 col-12 text-center">
+            <p class="fs-5 fw-bold pt-2">REDES SOCIALES</p>
+            <ul class="list-unstyled">
+              <li>
+                <a href="" class="m-1"
+                  >INSTAGRAM
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="m-1"
+                  >WHATSAPP
+                  <i class="bi bi-whatsapp"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="m-1"
+                  >X
+                  <i class="bi bi-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="m-1"
+                  >GITHUB
+                  <i class="bi bi-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col col-lg-4 col-md-4 col-12 text-center">
+            <p class="fs-5 fw-bold pt-2">REALIZADO CON:</p>
+            <ul class="list-unstyled">
+              <li><a href="" class="m-1">HTML</a></li>
+              <li><a href="" class="m-1">CSS</a></li>
+              <li><a href="" class="m-1">BOOSTRAP</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

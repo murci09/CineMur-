@@ -1,0 +1,15 @@
+@mixin card-servis{
+     display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 12px;
+    overflow: hidden ;
+    box-shadow: 0 4px 8px rgba(6, 6, 6, 0.979);
+    margin-top: 40px;
+    color: white;
+}
+@mixin display-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

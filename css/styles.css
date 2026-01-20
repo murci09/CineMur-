@@ -1,0 +1,381 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+.footer-style a {
+  text-decoration: none;
+  color: black;
+}
+
+.bi-instagram {
+  color: #f21e1e;
+}
+
+.bi-whatsapp {
+  color: green;
+}
+
+.bi-twitter {
+  color: blue;
+}
+
+.bi-github {
+  color: grey;
+}
+
+/* ===============================
+   FLOAT
+================================ */
+.cinema-float {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1000;
+}
+
+/* ===============================
+   ICONO SNACK CINE
+================================ */
+.snack-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #0f172a;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* ===============================
+   DRINK
+================================ */
+.drink {
+  width: 10px;
+  height: 22px;
+  background: linear-gradient(to top, #e50914, #b20710);
+  border-radius: 2px 2px 4px 4px;
+  position: relative;
+}
+
+.drink::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 4px;
+  width: 2px;
+  height: 6px;
+  background: #fff;
+  border-radius: 1px;
+}
+
+/* ===============================
+   POPCORN
+================================ */
+.popcorn {
+  width: 14px;
+  height: 14px;
+  background: #facc15;
+  border-radius: 50%;
+  position: relative;
+}
+
+.popcorn::before,
+.popcorn::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #fde047;
+  border-radius: 50%;
+}
+
+.popcorn::before {
+  top: -6px;
+  left: -4px;
+}
+
+.popcorn::after {
+  top: -6px;
+  right: -4px;
+}
+
+/* ===============================
+   ANIMACIÓN SUAVE
+================================ */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  50% {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(229, 9, 20, 0.25);
+  }
+}
+.contacto-form {
+  justify-items: center;
+  background-image: url(https://4kwallpapers.com/images/wallpapers/landscape-macbook-1920x1080-10760.jpg);
+  background-size: cover;
+}
+
+.contac {
+  background-image: url(https://4kwallpapers.com/images/wallpapers/landscape-macbook-1920x1080-10760.jpg);
+}
+
+.container-formulario {
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.encabezado {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.encabezado h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.encabezado p {
+  font-size: 14px;
+}
+
+.grupo-input {
+  margin-bottom: 20px;
+}
+
+.grupo-input label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.grupo-input input,
+.grupo-input select,
+.grupo-input textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: white;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.boton-enviar {
+  width: 100%;
+  padding: 14px;
+  background-color: #444343;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.boton-enviar:hover {
+  background-color: #4338ca;
+}
+
+.nav-style {
+  background-color: #05051d;
+}
+
+.nav-link {
+  border-radius: 10px;
+}
+
+.nav-link:hover {
+  background-color: #444343;
+  border-radius: 10px;
+}
+
+.dropdown-menu {
+  background-color: #05051d;
+}
+
+/* SERVICIO */
+.formato {
+  text-align: center;
+  margin: 30px 30px 0 30px;
+}
+
+.titulo-uno, .titulo-dos {
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  box-shadow: 0px 0px 30px rgb(11, 5, 48);
+  text-shadow: 0px 0px 20px rgb(37, 35, 35);
+}
+
+.contenedor-servicio img {
+  margin-top: 20px;
+}
+
+main {
+  background-color: #05051d;
+  padding-bottom: 40px;
+}
+
+/* CARTELERA LOGO */
+.cartelera-icon {
+  color: #f21e1e;
+}
+
+.cartelera-style {
+  margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+  .banner-container {
+    grid-template-columns: 1fr;
+  }
+  .banner-content {
+    padding: 20px;
+    text-align: center;
+  }
+  .pochoclos {
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .carta-style {
+    width: 220px;
+  }
+}
+@media (min-width: 768px) {
+  .image-carta {
+    height: 400;
+  }
+  .carta-style {
+    height: 410px;
+  }
+}
+.carta-style {
+  width: 18rem;
+}
+
+.image-carta {
+  height: 250px;
+  width: 100%;
+}
+
+.card-time {
+  background-color: rgba(255, 255, 255, 0.129);
+  color: rgb(4, 4, 4);
+  text-shadow: 0px 0px 8px rgb(255, 255, 255);
+}
+
+.card-title {
+  color: #000000;
+  font-weight: 600;
+}
+
+.servi-cards {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(6, 6, 6, 0.979);
+  margin-top: 40px;
+  color: white;
+}
+
+.servi-cards {
+  background-color: #220606;
+  box-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
+
+.servi-cards img {
+  width: 300px;
+  object-fit: cover;
+}
+
+.todo-servis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  justify-items: center;
+}
+
+.parrafo-formato {
+  margin: 8px 5px;
+}
+
+.texto-formato {
+  color: rgb(255, 253, 253);
+  font-weight: 700;
+  margin-top: 10px;
+  background-color: #ff0303;
+  width: 150px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* MAIN DE +13 */
+.banner-mastrece {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+
+.banner-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  overflow: hidden;
+  max-width: 1000px;
+  border: 1px solid #353232;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.banner-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.banner-content h3 {
+  font-size: 2rem;
+  margin: 0;
+  color: rgb(255, 193, 7);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "inter", sans-serif;
+  line-height: 1.6;
+}
+
+/*# sourceMappingURL=styles.css.map */

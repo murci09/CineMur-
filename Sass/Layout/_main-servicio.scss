@@ -1,0 +1,21 @@
+/* SERVICIO */
+.formato{
+    text-align: center;
+    margin: 30px 30px 0 30px;
+}
+.titulo-uno{
+    color: white;
+    font-weight: 500;
+    text-transform:capitalize;
+    box-shadow: 0px 0px 30px rgb(11, 5, 48);
+    text-shadow: 0px 0px 20px rgb(37, 35, 35);
+    
+}
+.titulo-dos{
+   @extend .titulo-uno
+}
+
+
+.contenedor-servicio img{
+    margin-top: 20px;
+}

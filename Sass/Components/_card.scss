@@ -1,0 +1,57 @@
+@use "../Utilities/variable" as *;
+@use "../Utilities/mixin" as *;
+.carta-style{
+    width: 18rem;
+    
+}
+
+.image-carta {
+    height: 250px; 
+    width: 100%;
+}
+
+.card-time{
+    background-color:rgba(255, 255, 255, 0.129);
+    color: rgb(4, 4, 4);
+    text-shadow: 0px 0px 8px rgb(255, 255, 255);
+}
+.card-title{
+    color: $color-letraCard;
+    font-weight: 600;
+}
+
+// servicio
+.servi-cards{
+    @include card-servis;
+}
+.servi-cards{
+    background-color: #220606;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
+
+.servi-cards img{
+    width: 300px;
+    object-fit: cover;
+}
+.todo-servis{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  justify-items: center;  
+}
+
+.parrafo-formato{
+    margin: 8px 5px;
+    
+}
+
+.texto-formato {
+    color: rgb(255, 253, 253);
+    font-weight: 700;
+    margin-top: 10px;
+    background-color: #ff0303;
+    width: 150px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}

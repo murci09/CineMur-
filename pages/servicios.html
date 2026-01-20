@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="icon" href="../img/logo.png" />
+    <title>CineMur</title>
+  </head>
+  <body>
+    <!--                EL NAV COMPLETO                 -->
+    <header class="sticky-top">
+      <nav
+        class="navbar navbar-expand-md border-bottom nav-style"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/logo.png" alt="" width="60" class="ms-3" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-3 gap-1">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >INICIO</a
+                >
+              </li>
+              <!--        NAV PELICULAS CON EL DROPDOWN           -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-light"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >PELICULAS
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../pages/+13.html">+13</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/atp.html">ATP</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../pages/servicios.html"
+                  ><table>
+                    SERVICIOS
+                  </table></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../pages/contacto.html"
+                  >CONTACTO</a
+                >
+              </li>
+            </ul>
+            <!--              LADO IZQUIERDO, UBIC             -->
+            <div class="ms-auto d-flex gap-1 me-3">
+              <i class="bi bi-geo-alt text-light pt-3"></i>
+              <p class="text-center text-light pt-3">TUCUMAN YERBA BUENA</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- CARRUCEL -->
+    <main>
+      <section class="container- contenedor-servicio">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="../img/porter-servicio.png"
+                class="d-block w-100 rounded-5"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../img/participa.jpg"
+                class="d-block w-100 rounded-5"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../img/2x1.jpg"
+                class="d-block w-100 rounded-5"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- CARD DE TIPO DE FORMATO -->
+
+      <section class="formato">
+        <h2 class="titulo-uno">Prepárate para vivir algo unico e historico:</h2>
+        <h3 class="titulo-dos">
+          Butacas con movimientos, Pantalla gigante, Efectos especiales y Muchos
+          mas....
+        </h3>
+        <div class="todo-servis">
+          <div class="servi-cards">
+            <img src="../img/4D E-MOTION.webp" alt="" />
+            <div class="texto-servi">
+              <p class="texto-formato">4D E-MOTION</p>
+              <p class="parrafo-formato">
+                Una propuesta única para vivir una experiencia sensorial
+                inmersiva: butacas móviles y mega efectos especiales en perfecto
+                sincronismo con la película. Aire, vibración, aromas, agua,
+                temblor, luces y viento. Más que ver una película, una
+                experiencia sensorial inmersiva. Disponibles para proyecciones
+                2D y 3D.
+              </p>
+            </div>
+          </div>
+
+          <div class="servi-cards">
+            <img src="../img/D-BOX.jpg" alt="" />
+            <div class="texto-servi">
+              <p class="texto-formato">D-BOX</p>
+              <p class="parrafo-formato">
+                Butacas con 3 niveles de intensidad para que elijas como vivir
+                la experiencia. Movimiento sincronizado para con los efectos
+                especiales de la pelicula. D-Box despierta la imaginación a
+                través del movimiento.
+              </p>
+            </div>
+          </div>
+
+          <div class="servi-cards">
+            <img src="../img/XD DIGITAL.jpg" alt="" />
+            <div class="texto-servi">
+              <p class="texto-formato">XD DIGITAL</p>
+              <p class="parrafo-formato">
+                XD o Extreme Digital Cinema. Con Cinemark XD, experimentarás las
+                películas tal como deben ser vistas. Cada escena cobra vida en
+                35 billones de colores, proyectados en una pantalla grande y con
+                un sistema de sonido envolvente digital de múltiples capas para
+                disfrutar proyecciones en 2D y 3D en formato digital.
+              </p>
+            </div>
+          </div>
+
+          <div class="servi-cards">
+            <img src="../img/PREMIUM CLASS.jpg" alt="" />
+            <div class="texto-servi">
+              <p class="texto-formato">PREMIUM CLASS</p>
+              <p class="parrafo-formato">
+                Espaciosas butacas de lujo reclinables a 60 grados con
+                reposapiés extensibles. Con solo tocar un botón, tu asiento se
+                puede ajustar en una variedad de posiciones para lograr su nivel
+                de comodidad más perfecto. Además, cada sala está diseñada para
+                una visualización óptima desde todos los asientos. Por algo es
+                premium.
+              </p>
+            </div>
+          </div>
+
+          <div class="servi-cards">
+            <img src="../img/COMFORT.jpg" alt="" />
+            <div class="texto-servi">
+              <p class="texto-formato">CONFORT</p>
+              <p class="parrafo-formato">
+                Disfrutá de butacas más amplias, con apoya pies y reclinado
+                electrónico que alcanza casi 180 grados. Más que una butaca, una
+                butaca más amplia…un sillón. Potenciá aún más tu experiencia
+                cuando se combina con formatos XD.
+              </p>
+            </div>
+          </div>
+
+          <div class="servi-cards">
+            <img src="../img/3D.jpg" alt="" />
+            <div class="texto-servi">
+              <p class="texto-formato">3D</p>
+              <p class="parrafo-formato">
+                Más detalle. Más profundidad. Más dimensión. Sumergite en otro
+                nivel de cine. Con nuestras funciones 3D, cada imagen cobra
+                profundidad y vida. Ponete los lentes y dejate llevar por una
+                experiencia visual que se siente tan real como emocionante.
+              </p>
+            </div>
+          </div>
+
+          <div class="servi-cards">
+            <img src="../img/funciones-distendidas.jpg" alt="" />
+            <div class="texto-servi">
+              <p class="texto-formato">DISTENDIDAS</p>
+              <p class="parrafo-formato">
+                Una experiencia pensada para todos. Nuestras funciones
+                distendidas están especialmente adaptadas para personas
+                neurodivergentes, creando un entorno más accesible e inclusivo.
+                Se realizan con luz tenue, volumen moderado y puertas abiertas
+                durante toda la función, además cuentan con un área de
+                regulación para que puedan moverse o expresarse sin
+                restricciones. Así, cada vez más personas pueden disfrutar del
+                cine junto a sus familias y acompañantes.
+              </p>
+            </div>
+          </div>
+        </div>
+       
+      </section>
+    </main>
+    <!-- FOOTER  -->
+    <footer class="mt-3 footer-style">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-4 col-md-4 col-12 text-center">
+            <p class="fs-5 fw-bold pt-2">LINKS</p>
+            <ul class="list-unstyled">
+              <li><a href="../index.html" class="m-1">INICIO</a></li>
+              <li><a href="../pages/+13.html" class="m-1">+13</a></li>
+              <li><a href="../pages/atp.html" class="m-1">ATP</a></li>
+              <li>
+                <a href="../pages/servicios.html" class="m-1">SERVICIOS</a>
+              </li>
+              <li><a href="../pages/contacto.html" class="m-1">CONTACTO</a></li>
+            </ul>
+          </div>
+          <div class="col col-lg-4 col-md-4 col-12 text-center">
+            <p class="fs-5 fw-bold pt-2">REDES SOCIALES</p>
+            <ul class="list-unstyled">
+              <li>
+                <a href="" class="m-1"
+                  >INSTAGRAM
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="m-1"
+                  >WHATSAPP
+                  <i class="bi bi-whatsapp"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="m-1"
+                  >X
+                  <i class="bi bi-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="m-1"
+                  >GITHUB
+                  <i class="bi bi-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col col-lg-4 col-md-4 col-12 text-center">
+            <p class="fs-5 fw-bold pt-2">REALIZADO CON:</p>
+            <ul class="list-unstyled">
+              <li><a href="" class="m-1">HTML</a></li>
+              <li><a href="" class="m-1">CSS</a></li>
+              <li><a href="" class="m-1">BOOSTRAP</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

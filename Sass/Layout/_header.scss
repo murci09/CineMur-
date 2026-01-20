@@ -1,0 +1,13 @@
+@use "../Utilities/variable" as *;
+.nav-style{
+    background-color: $color-principal ;
+}
+.nav-link{
+    border-radius: 10px;
+}
+.nav-link:hover{
+    background-color:$color-hover;
+    border-radius: 10px;
+}.dropdown-menu{
+    background-color:$color-principal;
+}
