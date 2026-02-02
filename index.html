@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="icon" href="./img/logo.png" />
     
-    <title>CineMur</title>
+    <title>CineMur | Vivi el cine, mira los mejores estrenos</title>
+    <meta name="description" content="CineMur es un sitio solamente de cine con estrenos destacados, peliculas para todas las edades y cartelera con alternativas">
   </head>
   <body>
     <!--                EL NAV COMPLETO                 -->
@@ -27,7 +28,7 @@
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">
-            <img src="./img/logo.png" alt="" width="60" class="ms-3" />
+            <img src="./img/logo.png" alt="logo de la pagina" width="60" class="ms-3" />
           </a>
           <button
             class="navbar-toggler"
@@ -62,7 +63,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="./pages/+13.html">+13</a>
+                    <a class="dropdown-item" href="./pages/mas13.html">+13</a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="./pages/atp.html">ATP</a>
@@ -94,7 +95,7 @@
 
     <main class="main-style">
       <!--                 ARRANCA EL CARRUCEL                 -->
-      <section class="container-fluid pt-4">
+      <section class=" container-fluid pt-4">
         <div
           id="carouselExampleInterval"
           class="carousel slide"
@@ -105,21 +106,21 @@
               <img
                 src="./img/carousel.jpg"
                 class="d-block w-100 rounded-2"
-                alt="..."
+                alt="carousel de zootopia"
               />
             </div>
             <div class="carousel-item" data-bs-interval="2000">
               <img
                 src="./img/carousel2.jpg"
                 class="d-block w-100 rounded-2"
-                alt="..."
+                alt="carousel de freddy"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="./img/carousel3.jpg"
                 class="d-block w-100 rounded-2"
-                alt="..."
+                alt="carousel de avatar"
               />
             </div>
           </div>
@@ -159,7 +160,7 @@
               <img
                 src="./img/harry-poter.jpg"
                 class="movie-poster card-img-top image-carta"
-                alt="..."
+                alt="poster de harry-poter"
               />
               <div class="card-body p-1 text-center">
                 <h5 class="card-title">HARRY POTTER</h5>
@@ -177,7 +178,7 @@
               <img
                 src="./img/telefono-negro2.jpg"
                 class="movie-poster card-img-top image-carta"
-                alt="..."
+                alt="poster de telefono-negro2"
               />
               <div class="card-body p-1 text-center">
                 <h5 class="card-title">BLACK PHONE 2</h5>
@@ -195,7 +196,7 @@
               <img
                 src="./img/wicked.jpg"
                 class="movie-poster card-img-top image-carta"
-                alt="..."
+                alt="poster de wicked"
               />
               <div class="card-body p-1 text-center">
                 <h5 class="card-title">WICKED</h5>
@@ -213,7 +214,7 @@
               <img
                 src="./img/zoopocalipsis.jpg"
                 class="movie-poster card-img-top image-carta"
-                alt="..."
+                alt="poster de zoopocalipsis"
               />
               <div class="card-body p-1 text-center">
                 <h5 class="card-title">ZOOPOCALIPSIS</h5>
@@ -231,7 +232,7 @@
               <img
                 src="./img/footopia.jpg"
                 class="movie-poster card-img-top image-carta"
-                alt="..."
+                alt="poster de footopia"
               />
               <div class="card-body p-1 text-center">
                 <h5 class="card-title">ZOOTOPIA</h5>
@@ -249,7 +250,7 @@
               <img
                 src="./img/freddy.jpg"
                 class="movie-poster card-img-top image-carta"
-                alt="..."
+                alt="poster de freddy"
               />
               <div class="card-body p-1 text-center">
                 <h5 class="card-title">FREDDY 2</h5>
@@ -267,7 +268,7 @@
               <img
                 src="./img/Noche-de-Paz-Noche-de-Horror.jpg"
                 class="movie-poster card-img-top image-carta"
-                alt="..."
+                alt="poster de Noche-de-Paz-Noche-de-Horror"
               />
               <div class="card-body p-1 text-center">
                 <h5 class="card-title">NOCHE DE PAZ</h5>
@@ -283,9 +284,9 @@
           <div class="col carta-style">
             <div class="card movie-card position-relative border-dark h-100">
               <img
-                src="./img/jay kelly.jpg"
+                src="./img/jay-kelly.jpg"
                 class="movie-poster card-img-top image-carta"
-                alt="..."
+                alt="poster de jay-kelly"
               />
               <div class="card-body p-1 text-center">
                 <h5 class="card-title">JEY KELLY</h5>
@@ -299,7 +300,116 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> 
+      <!-- CARTELERA DE PROXIMOS  -->
+
+          <section class="container my-2 carousel-movie">
+    <h2 class="carousel-movie-title">PRÓXIMOS ESTRENOS</h2>
+
+    <div
+      id="carouselEstrenos"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      data-bs-interval="8000"
+      data-bs-pause="false"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row g-4">
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="carousel-movie-card">
+                <img src="/img/comunion-de-sangre.jpg" alt="movie comunion-de-sangre">
+                <div class="carousel-movie-info">
+                  <h3>COMUNION DE SANGRE</h3>
+                  <span>29/01/2026</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="carousel-movie-card">
+                <img src="/img/epic.jpg" alt="movie epic">
+                <div class="carousel-movie-info">
+                  <h3>EPIC:ELVIS PRESLEY IN CONCERT</h3>
+                  <span>26/02/2026</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="carousel-movie-card">
+                <img src="img/goat.jpg" alt="movie goat">
+                <div class="carousel-movie-info">
+                  <h3>GOAT: LA CABRA QUE CAMBIO EL JUEGO</h3>
+                  <span>12/02/2026</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="carousel-movie-card">
+                <img src="img/scream-7.jpg" alt="movie SCREAM">
+                <div class="carousel-movie-info">
+                  <h3>SCREAM 7</h3>
+                  <span>26/02/2026</span>
+                </div>
+              </article>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row g-4">
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="carousel-movie-card">
+                <img src="img/pescadores.jpg" alt="movie pescadores">
+                <div class="carousel-movie-info">
+                  <h3>MOON: MI AMIGO EL PANDA</h3>
+                  <span>05/02/2026</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="carousel-movie-card">
+                <img src="img/hoppers.jpg" alt="movie hoppers">
+                <div class="carousel-movie-info">
+                  <h3>HOPPERS: OPERACION CASTOR</h3>
+                  <span>05/03/2026</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="carousel-movie-card">
+                <img src="img/fin-del-mundo.jpg" alt="movie fin-del-mundo">
+                <div class="carousel-movie-info">
+                  <h3>PROYECTO FIN DEL MUNDO</h3>
+                  <span>19/03/2026</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="carousel-movie-card">
+                <img src="img/olvidare.jpg" alt="movie olvidare">
+                <div class="carousel-movie-info">
+                  <h3>NO TE OLVIDARE</h3>
+                  <span>12/03/2026</span>
+                </div>
+              </article>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
 
   
   
@@ -314,7 +424,7 @@
             <p class="fs-5 fw-bold pt-2">LINKS</p>
             <ul class="list-unstyled">
               <li><a href="./index.html" class="m-1">INICIO</a></li>
-              <li><a href="./pages/+13.html" class="m-1">+13</a></li>
+              <li><a href="./pages/mas13.html" class="m-1">+13</a></li>
               <li><a href="./pages/atp.html" class="m-1">ATP</a></li>
               <li>
                 <a href="./pages/servicios.html" class="m-1">SERVICIOS</a>
@@ -326,25 +436,25 @@
             <p class="fs-5 fw-bold pt-2">REDES SOCIALES</p>
             <ul class="list-unstyled">
               <li >
-                <a href="" class="m-1"
+                <a href="https://www.instagram.com/santiagosaleme/" target="_blank" class="m-1"
                   >INSTAGRAM
                   <i class="bi bi-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="" class="m-1"
+                <a href="https://w.app/x3wpnr" target="_blank" class="m-1"
                   >WHATSAPP
                   <i class="bi bi-whatsapp"></i>
                 </a>
               </li>
               <li>
-                <a href="" class="m-1"
+                <a href="https://x.com/santi_tltc" target="_blank" class="m-1"
                   >X
                   <i class="bi bi-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="" class="m-1"
+                <a href="https://github.com/murci09" target="_blank" class="m-1"
                   >GITHUB
                   <i class="bi bi-github"></i>
                 </a>
@@ -354,16 +464,16 @@
           <div class="col col-lg-4 col-md-4 col-12 text-center">
             <p class="fs-5 fw-bold pt-2">REALIZADO CON:</p>
             <ul class="list-unstyled">
-              <li><a href="" class="m-1">HTML</a></li>
-              <li><a href="" class="m-1">CSS</a></li>
-              <li><a href="" class="m-1">BOOSTRAP</a></li>
-               <li><a href="" class="m-1">SASS</a></li>
+              <li><a href="#" class="m-1">HTML</a></li>
+              <li><a href="#" class="m-1">CSS</a></li>
+              <li><a href="#" class="m-1">BOOSTRAP</a></li>
+               <li><a href="#" class="m-1">SASS</a></li>
             </ul>
             
           </div>
         </div>
       </div>
-      <!-- From Uiverse.io by anand_4957 --> 
+      
 
 
     </footer>

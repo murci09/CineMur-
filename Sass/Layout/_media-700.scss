@@ -1,7 +1,9 @@
 @media (max-width: 700px){
-    .banner-container {
-        grid-template-columns: 1fr; 
-    }
+  .banner-container{
+      display: flex;
+    flex-direction: column;
+  }
+
     
     .banner-content {
         padding: 20px;
@@ -10,4 +12,15 @@
     .pochoclos{
         text-align: center;
     }
+   
+   .carousel-inner img{
+    height: 190px;
+   }
+.carousel-movie-card{
+  width: 200px;
+  margin: auto;
+}
+.carousel-movie-card img{
+  height: 300px;
+}
 }

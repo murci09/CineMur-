@@ -1,5 +1,5 @@
-@use "../Utilities/variable" as *;
-@use "../Utilities/mixin" as *;
+@use "../Utilities/variables" as *;
+@use "../Utilities/mixins" as *;
 .carta-style{
     width: 18rem;
     
@@ -77,8 +77,12 @@
 }
 
 .parrafo-formato{
-    margin: 8px 5px;
-    
+  font-size: 0.95rem;
+  line-height: 1.6;      // esto es CLAVE
+  color: #ffffff;
+  margin:6px 6px;
+  
+  
 }
 
 .texto-formato {
@@ -91,5 +95,6 @@
     margin-top: 10px;
     border-radius: 10px;
 }
+
 
 

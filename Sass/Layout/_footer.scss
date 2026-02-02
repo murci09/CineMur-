@@ -1,6 +1,6 @@
 
-@use "../Utilities/mixin" as *;
-@use "../Utilities/variable" as *;
+@use "../Utilities/mixins" as *;
+@use "../Utilities/variables" as *;
 .footer-style a{
 text-decoration: none;
 color: black;

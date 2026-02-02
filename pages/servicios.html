@@ -3,19 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    />
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"/>
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="icon" href="../img/logo.png" />
-    <title>CineMur</title>
+    <title>Servicios | CineMur Experiencias y beneficios</title>
+    <meta name="description" content="descubri los servicios que tiene CineMur, algo unico y una experiencia para no olvidarse jamas">
   </head>
   <body>
     <!--                EL NAV COMPLETO                 -->
@@ -26,7 +21,7 @@
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">
-            <img src="../img/logo.png" alt="" width="60" class="ms-3" />
+            <img src="../img/logo.png" alt="logo de CineMur" width="60" class="ms-3" />
           </a>
           <button
             class="navbar-toggler"
@@ -61,7 +56,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="../pages/+13.html">+13</a>
+                    <a class="dropdown-item" href="../pages/mas13.html">+13</a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="../pages/atp.html">ATP</a>
@@ -92,51 +87,33 @@
     </header>
     <!-- CARRUCEL -->
     <main>
-      <section class="container- contenedor-servicio">
-        <div id="carouselExampleIndicators" class="carousel slide">
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
+        <section class="container-fluid pt-4">
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="10000">
               <img
-                src="../img/participa.jpg"
-                class="d-block w-100 rounded-5"
-                alt="..."
+                src="../img/formato.png"
+                class="d-block w-100 rounded-2"
+                alt="carousel de que formato vas a elegir"
               />
             </div>
-            
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="2000">
               <img
                 src="../img/2x1.jpg"
-                class="d-block w-100 rounded-5"
-                alt="..."
+                class="d-block w-100 rounded-2"
+                alt="carousel de 2x1"
               />
             </div>
+          
           </div>
           <button
             class="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#carouselExampleInterval"
             data-bs-slide="prev"
           >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -145,7 +122,7 @@
           <button
             class="carousel-control-next"
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#carouselExampleInterval"
             data-bs-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -163,7 +140,7 @@
         </h3>
         <div class="todo-servis">
           <div class="servi-cards">
-            <img src="../img/4D E-MOTION.webp" alt="" />
+            <img src="../img/4de-motion.jpg" alt="formato 4d" />
             <div class="texto-servi">
               <p class="texto-formato">4D E-MOTION</p>
               <p class="parrafo-formato">
@@ -178,7 +155,7 @@
           </div>
 
           <div class="servi-cards">
-            <img src="../img/D-BOX.jpg" alt="" />
+            <img src="../img/d-box.jpg" alt="formato d box" />
             <div class="texto-servi">
               <p class="texto-formato">D-BOX</p>
               <p class="parrafo-formato">
@@ -191,7 +168,7 @@
           </div>
 
           <div class="servi-cards">
-            <img src="../img/XD DIGITAL.jpg" alt="" />
+            <img src="../img/xd-digital.jpg" alt="formato xd digital" />
             <div class="texto-servi">
               <p class="texto-formato">XD DIGITAL</p>
               <p class="parrafo-formato">
@@ -205,7 +182,7 @@
           </div>
 
           <div class="servi-cards">
-            <img src="../img/PREMIUM CLASS.jpg" alt="" />
+            <img src="../img/premiun-class.jpg" alt="formato premium" />
             <div class="texto-servi">
               <p class="texto-formato">PREMIUM CLASS</p>
               <p class="parrafo-formato">
@@ -220,7 +197,7 @@
           </div>
 
           <div class="servi-cards">
-            <img src="../img/COMFORT.jpg" alt="" />
+            <img src="../img/comfort.jpg" alt="formato comfort" />
             <div class="texto-servi">
               <p class="texto-formato">CONFORT</p>
               <p class="parrafo-formato">
@@ -233,7 +210,7 @@
           </div>
 
           <div class="servi-cards">
-            <img src="../img/3D.jpg" alt="" />
+            <img src="../img/3D.jpg" alt="formato 3D" />
             <div class="texto-servi">
               <p class="texto-formato">3D</p>
               <p class="parrafo-formato">
@@ -246,7 +223,7 @@
           </div>
 
           <div class="servi-cards">
-            <img src="../img/funciones-distendidas.jpg" alt="" />
+            <img src="../img/funciones-distendidas.jpg" alt="formato funciones-distendidas" />
             <div class="texto-servi">
               <p class="texto-formato">DISTENDIDAS</p>
               <p class="parrafo-formato">
@@ -256,8 +233,7 @@
                 Se realizan con luz tenue, volumen moderado y puertas abiertas
                 durante toda la función, además cuentan con un área de
                 regulación para que puedan moverse o expresarse sin
-                restricciones. Así, cada vez más personas pueden disfrutar del
-                cine junto a sus familias y acompañantes.
+                restricciones.
               </p>
             </div>
           </div>
@@ -273,7 +249,7 @@
             <p class="fs-5 fw-bold pt-2">LINKS</p>
             <ul class="list-unstyled">
               <li><a href="../index.html" class="m-1">INICIO</a></li>
-              <li><a href="../pages/+13.html" class="m-1">+13</a></li>
+              <li><a href="../pages/mas13.html" class="m-1">+13</a></li>
               <li><a href="../pages/atp.html" class="m-1">ATP</a></li>
               <li>
                 <a href="../pages/servicios.html" class="m-1">SERVICIOS</a>
@@ -284,26 +260,26 @@
           <div class="col col-lg-4 col-md-4 col-12 text-center">
             <p class="fs-5 fw-bold pt-2">REDES SOCIALES</p>
             <ul class="list-unstyled">
-              <li>
-                <a href="" class="m-1"
+              <li >
+                <a href="https://www.instagram.com/santiagosaleme/" target="_blank" class="m-1"
                   >INSTAGRAM
                   <i class="bi bi-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="" class="m-1"
+                <a href="https://w.app/x3wpnr" target="_blank" class="m-1"
                   >WHATSAPP
                   <i class="bi bi-whatsapp"></i>
                 </a>
               </li>
               <li>
-                <a href="" class="m-1"
+                <a href="https://x.com/santi_tltc" target="_blank" class="m-1"
                   >X
                   <i class="bi bi-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="" class="m-1"
+                <a href="https://github.com/murci09" target="_blank" class="m-1"
                   >GITHUB
                   <i class="bi bi-github"></i>
                 </a>

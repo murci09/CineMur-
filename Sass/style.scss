@@ -1,16 +1,24 @@
-@use "layout/footer";
-@use "layout/contacto";
+/* UTILITIE */
+@use "utilities/variables";
+@use "utilities/mixins";
+
+
+/* BASE */
+@use "base/reset";
+
+/* LAYOUT */
 @use "layout/header";
-@use "layout/main-servicio";
 @use "layout/main";
-@use "layout/media-1300";
-@use "layout/media-700";
+@use "layout/contacto";
+@use "layout/main-servicio";
+@use "layout/banner";
+@use "layout/carousel-movie";
+@use "layout/footer";
+
+/* MEDIA QUERIES  */
 @use "layout/media-992";
-@use "layout/media-min700";
+@use "layout/media-700";
+
+/* COMPONENTS */
 @use "components/card";
-@use "components/banner";
-@use"base/reset";
-
-
-
 

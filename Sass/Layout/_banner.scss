@@ -1,5 +1,5 @@
 /* MAIN DE +13 */
-@use "../Utilities/mixin" as *;
+@use "../Utilities/mixins" as *;
 .banner-mastrece{
     @include display-flex;
     padding: 20px;
